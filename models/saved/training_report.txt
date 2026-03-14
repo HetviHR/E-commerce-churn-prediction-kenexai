@@ -1,0 +1,43 @@
+============================================================
+  CHURN MODEL TRAINING REPORT
+============================================================
+  Model     : XGBoost + LightGBM Ensemble (soft vote)
+  Features  : 23
+  Train set : 17,376 rows (after SMOTE)
+  Test set  : 3,000 rows
+
+  METRICS
+  ────────────────────────────────────────
+  Accuracy  : 0.6980
+  Precision : 0.4685
+  Recall    : 0.7017
+  F1 Score  : 0.5619
+  ROC AUC   : 0.7797
+
+  FEATURES USED
+  ────────────────────────────────────────
+     1. Tenure
+     2. PreferredLoginDevice
+     3. CityTier
+     4. WarehouseToHome
+     5. PreferredPaymentMode
+     6. Gender
+     7. HourSpendOnApp
+     8. NumberOfDeviceRegistered
+     9. PreferedOrderCat
+    10. SatisfactionScore
+    11. MaritalStatus
+    12. NumberOfAddress
+    13. Complain
+    14. OrderAmountHikeFromlastYear
+    15. CouponUsed
+    16. OrderCount
+    17. DaySinceLastOrder
+    18. CashbackAmount
+    19. Recency
+    20. Frequency
+    21. EngagementScore
+    22. DiscountDependency
+    23. ChurnRiskScore
+
+============================================================

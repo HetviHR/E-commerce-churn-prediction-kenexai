@@ -23,6 +23,12 @@ import sys
 import time
 import argparse
 
+# Fix Windows console encoding for Unicode box-drawing characters
+if sys.stdout.encoding != "utf-8":
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if sys.stderr.encoding != "utf-8":
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 
 def section(title: str) -> None:
     print("\n" + "█" * 60)
