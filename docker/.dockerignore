@@ -1,0 +1,29 @@
+# Dependencies
+.venv/
+__pycache__/
+*.pyc
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+
+# Data files (rebuild inside container)
+warehouse/
+data/synthetic/*.csv
+data/processed/
+
+# Models (rebuild inside container)
+models/saved/
+genai/outputs/
+
+# OS
+Thumbs.db
+.DS_Store
