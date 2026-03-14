@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --bg-color: #0A0D14;
+  --sidebar-bg: #0A0D14;
+  --card-bg: #13151D;
+  --border-color: #1e2230;
+  --text-primary: #ffffff;
+  --text-secondary: #9ca3af;
+}
+
+html.light {
+  --bg-color: #F8FAFC;
+  --sidebar-bg: #ffffff;
+  --card-bg: #ffffff;
+  --border-color: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #64748b;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Mode Overrides for Specific Components */
+.light aside {
+  background-color: var(--sidebar-bg);
+  border-right-color: var(--border-color);
+}
+
+.light main {
+  background-color: var(--bg-color);
+}
+
+.light .bg-\[\#13151D\] {
+  background-color: var(--card-bg) !important;
+  border-color: var(--border-color) !important;
+}
+
+.light .bg-\[\#1A1D27\] {
+  background-color: #f1f5f9 !important;
+}
+
+.light .text-white {
+  color: var(--text-primary) !important;
+}
+
+.light .text-gray-400 {
+  color: var(--text-secondary) !important;
+}
+
+.light .border-\[\#1e2230\],
+.light .border-\[\#2A2D39\],
+.light .border-\[\#1A1D27\] {
+  border-color: var(--border-color) !important;
+}
+
+.light .text-gray-200 {
+  color: #1e293b !important;
+}
+
+.light .text-gray-300 {
+  color: #334155 !important;
+}
