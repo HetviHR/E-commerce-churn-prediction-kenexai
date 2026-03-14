@@ -1,0 +1,26 @@
+{
+  "2": {
+    "cluster_id": 2,
+    "persona": "Loyal Customers",
+    "description": "High tenure, high satisfaction, frequent orders, low churn risk.",
+    "retention_tip": "Reward with exclusive loyalty perks and early-access deals."
+  },
+  "3": {
+    "cluster_id": 3,
+    "persona": "Discount Seekers",
+    "description": "High coupon usage, price-driven, moderate satisfaction.",
+    "retention_tip": "Offer personalised discount bundles before they migrate to competitors."
+  },
+  "0": {
+    "cluster_id": 0,
+    "persona": "High Churn Risk",
+    "description": "Low engagement, many days since last order, complaints present.",
+    "retention_tip": "Trigger urgent win-back campaign with strong incentive (20%+ coupon + free shipping)."
+  },
+  "1": {
+    "cluster_id": 1,
+    "persona": "Premium Customers",
+    "description": "High order value, high cashback, premium category preference.",
+    "retention_tip": "Upsell premium memberships and curated product recommendations."
+  }
+}

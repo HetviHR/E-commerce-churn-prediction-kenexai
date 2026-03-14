@@ -1,0 +1,27 @@
+{
+  "model_name": "XGBoost",
+  "feature_importance": {
+    "Tenure": 0.313990211537318,
+    "CashbackAmount": 0.10177851492999816,
+    "Complain": 0.07828794401101846,
+    "DaySinceLastOrder": 0.05813462277956216,
+    "WarehouseToHome": 0.056091735567135106,
+    "NumberOfAddress": 0.050353214689378506,
+    "PreferedOrderCat": 0.04908554433226061,
+    "SatisfactionScore": 0.04687928135086271,
+    "OrderAmountHikeFromlastYear": 0.04035963754808286,
+    "MaritalStatus": 0.03303542850905403
+  },
+  "top_features": [
+    "Tenure",
+    "CashbackAmount",
+    "Complain",
+    "DaySinceLastOrder",
+    "WarehouseToHome",
+    "NumberOfAddress",
+    "PreferedOrderCat",
+    "SatisfactionScore",
+    "OrderAmountHikeFromlastYear",
+    "MaritalStatus"
+  ]
+}
